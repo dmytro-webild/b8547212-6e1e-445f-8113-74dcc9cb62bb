@@ -88,10 +88,10 @@ export default function LandingPage() {
               id: "mains",              title: "Главна Јела",              description: "Спагети карбонара (850 РСД) препоручена од стране критичара и аутентична Пица Маргарита (750 РСД).",              imageSrc: "http://img.b2bpic.net/free-photo/high-angle-pizza-with-vegetables_23-2148574236.jpg",              imageAlt: "Margherita pizza main course"
             },
             {
-              id: "drinks",              title: "Пића",              description: "Безалкохолни мојито (350 РСД) и Ледена кафа (300 РСД) за совршену допуну вашег оброка.",              imageSrc: "http://img.b2bpic.net/free-photo/blue-mojito-jar-with-lemon-mint-shiny-background-with-yellow-blue-pipes_114579-5170.jpg",              imageAlt: "Mojito and iced coffee beverages"
+              id: "drinks",              title: "Пића",              description: "Безалкохолни мојито (350 РСД) и Ледена кафа (300 РСД) за совршену допуну вашег оброка.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774432634-xwabfx66.jpg",              imageAlt: "Mojito and iced coffee beverages"
             },
             {
-              id: "vegan",              title: "Посни Мени",              description: "Посна салата (500 РСД) и Посна супа (400 РСД) за праксне и вегетаријанске госте.",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-vegetables-as-tomato-lettuce-basil-with-vegetable-salad-black-pepper-garlic-crusher-melted-oil-wooden-table_141793-10789.jpg",              imageAlt: "Fresh vegan menu ingredients"
+              id: "vegan",              title: "Посни Мени",              description: "Посна салата (500 РСД) и Посна супа (400 РСД) за праксне и вегетаријанске госте.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774444662-p5s1fb0q.jpg",              imageAlt: "Fresh vegan menu ingredients"
             }
           ]}
           gridVariant="two-columns-alternating-heights"
@@ -115,16 +115,16 @@ export default function LandingPage() {
           tagAnimation="blur-reveal"
           testimonials={[
             {
-              id: "1",              name: "Симо Жваља",              role: "Локални Водич",              testimonial: "Млади, пријатни и ненаметљиви конобари, леп избор пића, храна свежа и укусна. Телећа чорбица лечи, а спагети карбонара 6 језика говоре. Пристојне цене и азбучни назив локала. Препорука!",              imageSrc: "http://img.b2bpic.net/free-photo/medium-woman-taking-food-photo_23-2149250048.jpg",              imageAlt: "Симо Жваља portrait"
+              id: "1",              name: "Симо Жваља",              role: "Локални Водич",              testimonial: "Млади, пријатни и ненаметљиви конобари, леп избор пића, храна свежа и укусна. Телећа чорбица лечи, а спагети карбонара 6 језика говоре. Пристојне цене и азбучни назив локала. Препорука!",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774472486-pxe2tb5q.jpg",              imageAlt: "Симо Жваља portrait"
             },
             {
-              id: "2",              name: "Veljko Manojlović",              role: "Локални Водич",              testimonial: "Занимљив локал, дизајниран од метала и металних кутија офарбаних у мат црну боју, у комбинацији са дрветом. Атмосфера је јединствена и позива на враћање.",              imageSrc: "http://img.b2bpic.net/free-photo/person-indian-origin-having-fun_23-2150285278.jpg",              imageAlt: "Veljko Manojlović portrait"
+              id: "2",              name: "Veljko Manojlović",              role: "Локални Водич",              testimonial: "Занимљив локал, дизајниран од метала и металних кутија офарбаних у мат црну боју, у комбинацији са дрветом. Атмосфера је јединствена и позива на враћање.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774478058-g56e29w4.jpg",              imageAlt: "Veljko Manojlović portrait"
             },
             {
-              id: "3",              name: "Sladjan Djokic",              role: "Локални Водич",              testimonial: "Изузетно место за дружење, храну, пиће! Цена по особи 2.000–2.500 RSD. Вредност за новац је одлична и препоручујем свеима.",              imageSrc: "http://img.b2bpic.net/free-photo/middle-age-hispanic-woman-standing-yellow-background-smiling-positive-doing-ok-sign-with-hand-fingers-successful-expression_839833-32513.jpg",              imageAlt: "Sladjan Djokic portrait"
+              id: "3",              name: "Sladjan Djokic",              role: "Локални Водич",              testimonial: "Изузетно место за дружење, храну, пиће! Цена по особи 2.000–2.500 RSD. Вредност за новац је одлична и препоручујем свеима.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774485364-h22rj1xc.jpg",              imageAlt: "Sladjan Djokic portrait"
             },
             {
-              id: "4",              name: "Марко Петровић",              role: "Редовни Гост",              testimonial: "Постао сам редовни гост. Квалитет хране је конзистентан, а персонал је увек предусретљив. МАГАЦИН је постао мој омиљени избор за вечере.",              imageSrc: "http://img.b2bpic.net/free-photo/friends-restaurant-medium-shot_23-2149930137.jpg",              imageAlt: "Марко Петровић portrait"
+              id: "4",              name: "Марко Петровић",              role: "Редовни Гост",              testimonial: "Постао сам редовни гост. Квалитет хране је конзистентан, а персонал је увек предусретљив. МАГАЦИН је постао мој омиљени избор за вечере.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774491367-22zyvnon.jpg",              imageAlt: "Марко Петровић portrait"
             }
           ]}
           carouselMode="buttons"
