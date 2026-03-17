@@ -26,7 +26,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleFullscreen
-          brandName="МАГАЦИН"
+          brandName=""
           navItems={[
             { name: "Дом", id: "home" },
             { name: "Мени", id: "menu" },
