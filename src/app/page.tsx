@@ -50,7 +50,7 @@ export default function LandingPage() {
             { text: "Резервиши Сто", href: "#contact" }
           ]}
           buttonAnimation="blur-reveal"
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773773983293-bbw7i1ee.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B5G70weEGyzW6m1uD1aBnEZv9u/uploaded-1773774060712-n1s4g5qf.png"
           imageAlt="МАГАЦИН restaurant interior with elegant dining atmosphere"
           showDimOverlay={true}
           showBlur={true}
