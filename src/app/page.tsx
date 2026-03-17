@@ -44,12 +44,12 @@ export default function LandingPage() {
           description="Аутентична кулинарска искуства са традиционалном кухињом и савременим прTouch-ом. Уживајте у свежој храни, пријатној атмосфери и преданој услузи. Оцењено 4,4 звезде од стране 2.618 задовољних гостију."
           tag="Ресторан у Новом Саду"
           tagIcon={Star}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           buttons={[
             { text: "Погледај Мени", href: "#menu" },
             { text: "Резервиши Сто", href: "#contact" }
           ]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="blur-reveal"
           imageSrc="http://img.b2bpic.net/free-photo/empty-wood-chair_1339-6717.jpg"
           imageAlt="МАГАЦИН restaurant interior with elegant dining atmosphere"
           showDimOverlay={true}
@@ -67,7 +67,7 @@ export default function LandingPage() {
             { icon: MapPin, label: "Јединствена Локација", value: "Новосадски Сајам" },
             { icon: Clock, label: "Резервисано Време", value: "Open 24h" }
           ]}
-          metricsAnimation="entrance-slide"
+          metricsAnimation="blur-reveal"
           useInvertedBackground={false}
           ariaLabel="МАГАЦИН restaurant metrics and achievements"
         />
@@ -79,7 +79,7 @@ export default function LandingPage() {
           description="Откријте нашу пажљиво куирану селекцију јела која комбинују традиционалну балканску кухињу са модерним техникама кулинарске уметности. Свако јело је припремљено са свежим, квалитетним намирницама."
           tag="Четири Категорије"
           tagIcon={Utensils}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           features={[
             {
               id: "starter",              title: "Предјела",              description: "Телећа чорбица (450 РСД) и освеживаћа Салата Цезар (650 РСД) за савршен почетак вечери.",              imageSrc: "http://img.b2bpic.net/free-photo/top-view-caesar-salad-oval-plate-green-white-checkered-tablecloth-bottle-fork-dark-red-background_140725-124895.jpg",              imageAlt: "Caesar salad appetizer"
@@ -95,13 +95,13 @@ export default function LandingPage() {
             }
           ]}
           gridVariant="two-columns-alternating-heights"
-          animationType="entrance-slide"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
             { text: "Вршите Наруџбину", href: "#contact" }
           ]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="blur-reveal"
           ariaLabel="МАГАЦИН menu features and categories"
         />
       </div>
@@ -112,7 +112,7 @@ export default function LandingPage() {
           description="Прочитајте прославе од наших задовољних гостију и локалних водича који су искусили магију МАГАЦИНА."
           tag="Аутентични Отзиви"
           tagIcon={MessageCircle}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           testimonials={[
             {
               id: "1",              name: "Симо Жваља",              role: "Локални Водич",              testimonial: "Млади, пријатни и ненаметљиви конобари, леп избор пића, храна свежа и укусна. Телећа чорбица лечи, а спагети карбонара 6 језика говоре. Пристојне цене и азбучни назив локала. Препорука!",              imageSrc: "http://img.b2bpic.net/free-photo/medium-woman-taking-food-photo_23-2149250048.jpg",              imageAlt: "Симо Жваља portrait"
@@ -128,13 +128,13 @@ export default function LandingPage() {
             }
           ]}
           carouselMode="buttons"
-          animationType="entrance-slide"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={false}
           buttons={[
             { text: "Оставите Отзив", href: "#contact" }
           ]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="blur-reveal"
           ariaLabel="Customer testimonials for МАГАЦИН restaurant"
         />
       </div>
@@ -143,7 +143,7 @@ export default function LandingPage() {
         <ContactCTA
           tag="Резервисање & Наруџбина"
           tagIcon={Phone}
-          tagAnimation="entrance-slide"
+          tagAnimation="blur-reveal"
           title="Контактирајте МАГАЦИН"
           description="Резервишите свој сто, наручите храну или сазнајте више о нашим услугама. Ми смо доступни 24 сата за ваше потребе."
           buttons={[
@@ -152,7 +152,7 @@ export default function LandingPage() {
             { text: "Наручи преко Eventl", href: "https://eventl.in" },
             { text: "Пости Facebook", href: "https://facebook.com" }
           ]}
-          buttonAnimation="entrance-slide"
+          buttonAnimation="blur-reveal"
           background={{ variant: "radial-gradient" }}
           useInvertedBackground={false}
           ariaLabel="Contact МАГАЦИН restaurant"
